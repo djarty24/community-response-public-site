@@ -12,27 +12,26 @@ import {
 
 // HANDOFF_UPDATE_START
 const emergencyUpdate = {
-  title: "Community Response Status",
-  announcement:
-    "No active emergency updates at this time. Verified public information will appear here when coordinators publish an update.",
-  location: "Sunnyvale Community Response Area",
-  severity: "Monitoring",
-  lastUpdated: "Not yet published",
-  faqs: [
+  "title": "Community Update: Flood Response and Support",
+  "announcement": "Our community response teams are actively addressing localized flooding, particularly near Main Street. We are distributing sandbags and working to clear affected roadways to ensure safety. For residents displaced by the flooding, a temporary shelter has been established at the Community Center, offering cots and hot meals. We are committed to supporting everyone affected and appreciate your cooperation during this time.",
+  "location": "Sunnyvale Community Response Area",
+  "severity": "Active Update",
+  "lastUpdated": "May 23, 2026, 4:51 PM",
+  "faqs": [
     {
-      question: "Where can I get help?",
-      answer: "Check this page for verified updates from response coordinators.",
+      "question": "Which areas are currently affected by flooding?",
+      "answer": "We are primarily addressing localized flooding near Main Street. Our teams are working to clear roads and distribute sandbags in these areas."
     },
     {
-      question: "How often is this updated?",
-      answer: "Updates are published when coordinators verify new information.",
+      "question": "Is there a shelter available for residents who need to evacuate?",
+      "answer": "Yes, a temporary shelter has been opened at the Community Center. It is providing cots and hot meals for displaced families."
     },
     {
-      question: "Can I volunteer?",
-      answer: "Volunteer instructions will be posted here during an active response.",
-    },
+      "question": "What safety measures should I take during this time?",
+      "answer": "Please avoid flooded roads and never attempt to drive or walk through standing water. Stay indoors if possible and monitor official updates for the latest information."
+    }
   ],
-  sms: "No active emergency updates.",
+  "sms": "Community Update: Localized flooding near Main St. Teams are clearing roads & distributing sandbags. Shelter open at Community Center for displaced families. Stay safe!"
 }
 // HANDOFF_UPDATE_END
 
