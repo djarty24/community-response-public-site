@@ -10,8 +10,9 @@ import {
   ShieldCheck,
 } from "lucide-react"
 
+// HANDOFF_UPDATE_START
 const emergencyUpdate = {
-  title: "Community Website for Sunnyvale Emergency Response",
+  title: "Community Response Status",
   announcement:
     "No active emergency updates at this time. Verified public information will appear here when coordinators publish an update.",
   location: "Sunnyvale Community Response Area",
@@ -33,6 +34,7 @@ const emergencyUpdate = {
   ],
   sms: "No active emergency updates.",
 }
+// HANDOFF_UPDATE_END
 
 function App() {
   return (
