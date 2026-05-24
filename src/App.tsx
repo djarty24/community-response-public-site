@@ -13,18 +13,28 @@ import {
 } from "lucide-react"
 
 // HANDOFF_UPDATE_START
-const siteContent = {
-  heroEyebrow: "Serving neighbors with dignity",
-  heroTitle: "Harbor Light Outreach",
-  heroSubtitle:
-    "We help unhoused neighbors access warm meals, basic supplies, shelter navigation, and caring community support.",
-  mealTime: "Saturday community meal: 10:00 AM at Harbor Hall",
-  donationGoal: "Current goal: 300 hygiene kits for winter outreach",
-  volunteerOrientation: "Next volunteer orientation: Tuesday at 6:00 PM",
+const emergencyUpdate = {
+  title: "Community Response Status",
   announcement:
-    "Winter outreach is underway. We are collecting socks, hygiene items, blankets, and shelf-stable snacks.",
-  contactEmail: "hello@harborlight.example",
-  contactPhone: "(555) 014-2200",
+    "No active emergency updates at this time. Verified public information will appear here when coordinators publish an update.",
+  location: "Sunnyvale Community Response Area",
+  severity: "Monitoring",
+  lastUpdated: "Not yet published",
+  faqs: [
+    {
+      question: "Where can I get help?",
+      answer: "Check this page for verified updates from response coordinators.",
+    },
+    {
+      question: "How often is this updated?",
+      answer: "Updates are published when coordinators verify new information.",
+    },
+    {
+      question: "Can I volunteer?",
+      answer: "Volunteer instructions will be posted here during an active response.",
+    },
+  ],
+  sms: "No active emergency updates.",
 }
 // HANDOFF_UPDATE_END
 
