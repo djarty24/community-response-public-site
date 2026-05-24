@@ -222,6 +222,37 @@ function App() {
       </section>
 
       {/* HANDOFF_INSERT_START */}
+<section className="mx-auto max-w-6xl px-6 py-16">
+  <div className="rounded-[2.5rem] bg-[#fffaf3] p-10 shadow-xl shadow-[#b08c6f]/10 text-center">
+    <div className="mb-6 flex items-center justify-center gap-4">
+      <div className="flex h-16 w-16 items-center justify-center rounded-full bg-[#7a4f35] text-white">
+        <Package className="h-8 w-8" />
+      </div>
+      <h2 className="font-serif text-5xl font-bold leading-tight text-[#2f261f]">
+        Annual Winter Coat Drive
+      </h2>
+    </div>
+    <p className="mt-4 text-xl leading-8 text-[#6d5748] max-w-3xl mx-auto">
+      Your generous donation of new or gently used winter coats brings essential warmth and dignity to our unhoused neighbors during the coldest months. All sizes are greatly appreciated.
+    </p>
+    <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-5">
+      <p className="inline-flex items-center gap-2 text-lg font-medium text-[#7a4f35]">
+        <MapPin className="h-5 w-5" /> Drop-off at Harbor Hall
+      </p>
+      <p className="inline-flex items-center gap-2 text-lg font-medium text-[#7a4f35]">
+        <CalendarDays className="h-5 w-5" /> Mon-Fri, 9 AM - 4 PM
+      </p>
+    </div>
+    <a
+      href="#contact"
+      className="mt-10 inline-flex items-center justify-center gap-2 rounded-full bg-[#2f5d50] px-7 py-3.5 text-lg font-bold text-white shadow-md"
+    >
+      Get Donation Guidelines
+      <ArrowRight className="h-5 w-5" />
+    </a>
+  </div>
+</section>
+
 
       {/* HANDOFF_INSERT_END */}
 
