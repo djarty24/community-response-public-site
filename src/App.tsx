@@ -18,7 +18,7 @@ const siteContent = {
   heroTitle: "Harbor Light Outreach",
   heroSubtitle:
     "We help unhoused neighbors access warm meals, basic supplies, shelter navigation, and caring community support.",
-  mealTime: "Saturday community meal: 11:00 AM at Harbor Hall",
+  mealTime: "Saturday community meal: 10:00 AM at the library",
   donationGoal: "Current goal: 300 hygiene kits for winter outreach",
   volunteerOrientation: "Next volunteer orientation: Tuesday at 6:00 PM",
   announcement:
