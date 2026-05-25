@@ -222,6 +222,47 @@ function App() {
       </section>
 
       {/* HANDOFF_INSERT_START */}
+<section id="gala-announcement" className="py-16">
+  <div className="mx-auto max-w-6xl px-6 text-center">
+    <div className="rounded-[2.5rem] bg-[#fffaf3] p-8 shadow-xl shadow-[#b08c6f]/10 lg:p-12">
+      <p className="mb-3 inline-flex rounded-full bg-[#ead8c2] px-4 py-2 text-sm font-bold text-[#7a4f35]">
+        Annual Gala Event
+      </p>
+      <h2 className="font-serif text-4xl font-bold leading-tight text-[#2f261f] md:text-5xl">
+        Harbor Light Gala: Building Homes, Restoring Hope
+      </h2>
+      <p className="mt-5 max-w-3xl mx-auto text-lg leading-8 text-[#6d5748]">
+        Join us for an inspiring evening dedicated to raising funds for our mobile homes initiative, providing safe and dignified shelter for our unhoused neighbors.
+      </p>
+
+      <div className="mt-8 grid gap-6 sm:grid-cols-3 sm:divide-x sm:divide-[#e4d5c3]">
+        <div className="flex flex-col items-center gap-2">
+          <CalendarDays className="h-6 w-6 text-[#7a4f35]" />
+          <p className="font-semibold text-[#2f261f]">May 25th, 6:00 PM</p>
+        </div>
+        <div className="flex flex-col items-center gap-2">
+          <MapPin className="h-6 w-6 text-[#7a4f35]" />
+          <p className="font-semibold text-[#2f261f]">Hilton San Francisco</p>
+        </div>
+        <div className="flex flex-col items-center gap-2">
+          <Heart className="h-6 w-6 text-[#7a4f35] fill-[#7a4f35]" />
+          <p className="font-semibold text-[#2f261f]">For Mobile Homes</p>
+        </div>
+      </div>
+
+      <div className="mt-10 flex justify-center">
+        <a
+          href="#gala-tickets" 
+          className="inline-flex items-center justify-center gap-2 rounded-full bg-[#7a4f35] px-7 py-3 font-bold text-white shadow-md transition-colors hover:bg-[#8a6b55]"
+        >
+          Get Your Tickets
+          <ArrowRight className="h-4 w-4" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section className="mx-auto max-w-6xl px-6 py-16">
   <div className="rounded-[2.5rem] bg-[#fffaf3] p-10 shadow-xl shadow-[#b08c6f]/10 text-center">
     <div className="mb-6 flex items-center justify-center gap-4">
